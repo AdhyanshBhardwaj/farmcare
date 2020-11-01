@@ -106,7 +106,7 @@ class _MainPageState extends State<MainPage> {
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: Container(
-          height: size.height - 150.0,
+          height: size.height - 100.0,
           padding: EdgeInsets.all(20.0),
           margin: EdgeInsets.only(bottom: 40.0),
           child: Form(

@@ -14,30 +14,30 @@ String finaladdress;
 var temp, humidity, season;
 
 var result = {
-  "crops": {"0": "wheat", "1": "millet"},
+  "crops": {"0": "wheat", "1": "rice"},
   "crop_info": {
     "0":
         "Wheat is a cereal grain. People eat it most often in the form of bread. It is a kind of grass whose fruit is a \"head of wheat\" with edible seeds. World trade in wheat is greater than for all other crops combined",
     "1":
-        "Millets are a group of highly variable small-seeded grasses, widely grown around the world as cereal crops or grains for fodder and human food.Generally, millets are small-grained, annual, warm-weather cereals belonging to the grass family. They are highly tolerant of drought and other extreme weather conditions and have a similar nutrient content to other major cereals."
+        "Rice can grow in either a wet paddy or a dry field setting. rice fields are also called paddy fields or rice paddies. About 75% of global rice production comes from irrigated rice systems  because most rice varieties express their full yield potential when water supply is adequate."
   },
-  "soil_type": {"0": "Loamy and clay soil", "1": "Sandy loam soil."},
+  "soil_type": {"0": "Loamy and clay soil", "1": "Loamy and clay soil."},
   "temperature_req": {
     "0": "12\u00b0 to 25\u00b0C",
-    "1": "25\u00b0 to 30\u00b0C"
+    "1": "25\u00b0 to 35\u00b0C"
   },
-  "water_req": {"0": "450-650 mm\/day", "1": "450-650 mm\/day"},
-  "time_required": {"0": "7-8 months", "1": "105-140 days"},
-  "seeds_per_hectare": {"0": "125 kg\/hectare", "1": "8-12 kg\/hectare"},
+  "water_req": {"0": "450-650 mm\/day", "1": "450-700 mm\/day"},
+  "time_required": {"0": "7-8 months", "1": "120-150 days"},
+  "seeds_per_hectare": {"0": "125 kg\/hectare", "1": "20-40 kg\/hectare"},
   "MSP": {
     "0": "Rs 1,975 per quintal",
-    "1": "Rs 1,871 per quintal",
+    "1": "Rs 1,870 per quintal",
   },
 };
 
 List<String> images = [
   "http://www.pngall.com/wp-content/uploads/2/Wheat-PNG-Image.png",
-  "https://www.8milletwalkathon.com/wp-content/uploads/2018/10/wheat-vector-png-300x300.png"
+  "https://www.pikpng.com/pngl/b/330-3306231_rice-belongs-to-the-poaceae-family-rice-plant.png"
 ];
 
 var titleData_en = [
